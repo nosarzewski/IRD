@@ -3,10 +3,10 @@ Indukowane Reguły Decyzyjne w Szkole Głównej Handlowej, semestr zimowy roku a
 
 [Strona części wykładowej przedmiotu na Niezbędniku SGH](https://www.e-sgh.pl/mwrzosek/ird/)
 
-zajęcia: co drugi czwartek 17.10-18.40 oraz 19.00-20.30, sala C-4d  
+zajęcia: co drugi wtorek 17.10-18.40 oraz 19.00-20.30, sala C-4d  
 prowadzący:
   grupy 100 i 101: Aleksander Nosarzewski (nosarzewski.aleks@gmail.com)  
-  grupy 102 i 103: Justyna Proniewicz  
+  grupy 102 i 103: Justyna Proniewicz  (justyna.proniewicz@gmail.com)
 
 ## Plan zajęć
 __01/08.10.2019 - Wstęp do programowania w języku R__  
