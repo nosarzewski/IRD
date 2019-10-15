@@ -9,8 +9,8 @@ prowadzący:
   grupy 102 i 103: Justyna Proniewicz  (justyna.proniewicz@gmail.com)
 
 ## Plan zajęć
-__01/08.10.2019 - Wstęp do programowania w języku R__  
-15/19.10.2019 - Przetwarzanie danych w R (pakiet dplyr)  
+01/08.10.2019 - Wstęp do programowania w języku R  
+__15/19.10.2019 - Przetwarzanie danych w R (pakiet dplyr)__  
 29.10/05.11/2019 - Wizualizacja danych (pakiet ggplot2)  
 12/19.11.2019 - Drzewa decyzyjne  
 26.11/03.12.2019 - Ocena jakości modeli  
