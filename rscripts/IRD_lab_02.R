@@ -189,8 +189,7 @@ measure_time <- function(f, ...)
 getwd()
 
 #ustalenie katalogu roboczego (tam, gdzie znajduja sie pliki z danymi do przykladow)
-setwd("github/data/")
-path <- "https://raw.githubusercontent.com/nosarzewski/IRD_18_19_L/master/data/"
+path <- "https://raw.githubusercontent.com/nosarzewski/IRD_19_20_Z/master/data/"
 
 ##wczytywanie roznego rodzaju danych z pliku
 
