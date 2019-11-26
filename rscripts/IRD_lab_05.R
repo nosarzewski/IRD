@@ -17,7 +17,8 @@ library(ROCR) # do krzywej ROC
 library(caret) # do waznosci zmiennych w modelu
 
 # Wczytanie danych - prosze uzupelnic wlasciwa sciezke do pliku
-dane <- read.csv2('https://bit.ly/2L0HtVa',  stringsAsFactors = FALSE, dec = '.')
+dane <- read.csv2('https://raw.githubusercontent.com/nosarzewski/IRD_19_20_Z/master/data/winequality-white.csv',
+                  stringsAsFactors = FALSE, dec = '.')
 #dane <- read.csv2('data/winequality-white.csv',  stringsAsFactors = FALSE, dec = '.')
 # read.csv2 zamiast read.csv ze wzgledu na separator kolumn
 # dec = '.' - wskazujemy, że separatorem dziesiętnym jest kropka
@@ -123,7 +124,8 @@ plot(performance(prediction(prognoza_ciagla,test$quality),"lift","rpp"),lwd=2, c
 ################################################################################
 
 # Wczytanie danych - ponownie
-dane <- read.csv2('https://bit.ly/2L0HtVa',  stringsAsFactors = FALSE, dec = '.')
+dane <- read.csv2('https://raw.githubusercontent.com/nosarzewski/IRD_19_20_Z/master/data/winequality-white.csv',  
+                  stringsAsFactors = FALSE, dec = '.')
 #dane <- read.csv2('data/winequality-white.csv',  stringsAsFactors = FALSE, dec = '.')
 
 # Inicjalizacja ziarna do zmiennych pseudolosowych
