@@ -11,8 +11,8 @@ prowadzący:
 ## Plan zajęć
 01/08.10.2019 - Wstęp do programowania w języku R  
 15/19.10.2019 - Przetwarzanie danych w R (pakiet dplyr)  
-__29.10/05.11/2019 - Wizualizacja danych (pakiet ggplot2)__  
+29.10/05.11/2019 - Wizualizacja danych (pakiet ggplot2)  
 12/19.11.2019 - Drzewa decyzyjne  
-26.11/03.12.2019 - Ocena jakości modeli  
+__26.11/03.12.2019 - Ocena jakości modeli__  
 10/17.12.2019 - Lasy losowe i reguły asocjacyjne  
 07/14.01.2020 - Kolokwium  
