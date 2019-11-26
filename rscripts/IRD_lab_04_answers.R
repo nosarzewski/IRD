@@ -128,8 +128,13 @@ plot(treeCaret_3)
 rpart.plot(treeCaret_3$finalModel)
 
 # Ewaluacja
-confusionMatrix(data = predict(treeCaret_3, training), reference = training$quality, mode = "everything")
-confusionMatrix(data = predict(treeCaret_3, testing), reference = testing$quality, mode = "everything")
+confusionMatrix(data = predict(treeCaret_3, training), 
+                reference = as.factor(training$quality), 
+                mode = "everything")
+
+confusionMatrix(data = predict(treeCaret_3, testing), 
+                reference = as.factor(testing$quality), 
+                mode = "everything")
 
 ## 10-krotna walidacja krzyzowa
 fitControl_10 <- trainControl(
@@ -144,6 +149,11 @@ plot(treeCaret_10)
 rpart.plot(treeCaret_10$finalModel)
 
 # Ewaluacja
-confusionMatrix(data = predict(treeCaret_10, training), reference = training$quality, mode = "everything")
-confusionMatrix(data = predict(treeCaret_10, testing), reference = testing$quality, mode = "everything")
+confusionMatrix(data = predict(treeCaret_10, training), 
+                reference = as.factor(training$quality), 
+                mode = "everything")
+
+confusionMatrix(data = predict(treeCaret_10, testing), 
+                reference = as.factor(testing$quality), 
+                mode = "everything")
 
