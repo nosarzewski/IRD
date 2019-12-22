@@ -13,6 +13,6 @@ prowadzący:
 15/19.10.2019 - Przetwarzanie danych w R (pakiet dplyr)  
 29.10/05.11/2019 - Wizualizacja danych (pakiet ggplot2)  
 12/19.11.2019 - Drzewa decyzyjne  
-__26.11/03.12.2019 - Ocena jakości modeli__  
+26.11/03.12.2019 - Ocena jakości modeli  
 10/17.12.2019 - Lasy losowe i reguły asocjacyjne  
-07/14.01.2020 - Kolokwium  
+__07/14.01.2020 - Kolokwium__  
