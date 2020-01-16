@@ -9,6 +9,12 @@ prowadzący:
   grupy 102 i 103: Justyna Proniewicz  (justyna.proniewicz@gmail.com)
 
 ## Ogłoszenia
+### Konsultacje po pierwszym terminie
+Dnia 21 stycznia o godzinie 17.10 w sali C-4d odbędą się konsultacje dla wszystkich grup ćwiczeniowych.
+
+### Grupy 102 oraz 103 - wyniki pierwszego terminu kolokwium
+W folderze exam znajdują się wyniki pierwszego terminu z kolokwium dla grup 102 oraz 103.
+
 ### Kolokwium 14.01.2020
 W dniu 14.01.2020 kolokwium mogą pisać osoby z grup mgr Nosarzewskiego oraz te osoby z grup mgr Proniewicz, które odpowiednio wcześniej zgłosiły się do mgr Nosarzewskiego z taką prośbą i uzyskały zgodę.
 
@@ -21,4 +27,4 @@ Wszystkie pozostałe osoby będą pisały kolokwium z ćwiczeń w czasie sesji (
 12/19.11.2019 - Drzewa decyzyjne  
 26.11/03.12.2019 - Ocena jakości modeli  
 10/17.12.2019 - Lasy losowe i reguły asocjacyjne  
-__07/14.01.2020 - Kolokwium__  
+07/14.01.2020 - Kolokwium  
