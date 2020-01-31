@@ -9,6 +9,9 @@ prowadzący:
   grupy 102 i 103: Justyna Proniewicz  (justyna.proniewicz@gmail.com)
 
 ## Ogłoszenia
+### Wyniki drugiego terminu kolokwium
+W folderze exam znajdują się wyniki drugiego terminu z kolokwium.
+
 ### Drugi termin kolokwium 
 Drugi termin kolokwium odbędzie się dnia 28.01.2020 o godzinie 19.00 w sali G-108.
 
