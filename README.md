@@ -18,5 +18,5 @@ __25.02/03.03.2020 - Wstęp do programowania w języku R__
 07/21.04.2020 - Drzewa decyzyjne  
 28.04/05.05.2020 - Ocena jakości modeli  
 12/19.05.2020 - Lasy losowe i reguły asocjacyjne  
-26.05/02.06.2020 - Kolokwium 
+26.05/02.06.2020 - Kolokwium  
 09.06.2020 - wolny slot (grupy 100/101)
