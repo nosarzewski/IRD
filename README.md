@@ -9,7 +9,7 @@ prowadzący:
   grupy 102 i 103: Justyna Proniewicz  (justyna.proniewicz@gmail.com)
 
 ## Ogłoszenia
-Tutaj będą ppjawiały się ogłoszenia.
+Tutaj będą pojawiały się ogłoszenia.
 
 ## Wstępny plan zajęć
 __25.02/03.03.2020 - Wstęp do programowania w języku R__  
