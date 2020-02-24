@@ -14,19 +14,11 @@
 
 ### 1) Organizacja zajęć
 
-# zaliczenie zajęć za minimum 50pkt, składowe:
-## ćwiczenia: kolokwium za 50pkt, 2 terminy w sesji
+# zaliczenie zajęć za minimum 50%, składowe:
+## ćwiczenia: kolokwium za 40%, 2 terminy (jeden na ostatnich zajęcia oraz jeden w sesji)
 ## można mieć materiały (dowolne) i korzystać z Internetu, nie można się komunikować
-## wykład: test za 50pkt
-# adres repozytorium z materiałami: https://github.com/nosarzewski/IRD_19_20_Z
-
-### 1.1) Dygresja: kontrola wersji, git, github
-
-# Tutorial po polsku:
-# https://poznajprogramowanie.pl/git-tutorial-jak-zaczac-z-git/
-
-# Tutorial po angielsku - bez pisania kodu
-# https://guides.github.com/activities/hello-world/
+## wykład: test za 40 % oraz projekt za 20%
+# adres repozytorium z materiałami: https://github.com/nosarzewski/IRD
 
 ### 2) Ogólnie o R
 
@@ -49,6 +41,11 @@
 # http://r.meteo.uni.wroc.pl/
 # https://www.rstudio.com/
 
+### 3) RStudio - praca z programem
+
+# Tworzymy projekt (File -> New Project...), np. "IRD". W katalogu projektowym tworzomy katalogi rscripts oraz data.
+# pobieramy z Internetu wskazane skrypty i pliki z danymi i umieszczamy w odpowiednich katalogach.
+
 ## wybrane skróty klawiszowe w R Studio
 # CTRL+ENTER / CTRL+R: wykonywanie instrukcji ze skryptu (w R GUI - F5): 
 #  aktualna linijka bądź zaznacznie
@@ -60,27 +57,17 @@
 # CTRL+1: przełączanie do edytora
 # CTRL+2: przełączanie do konsoli
 
-###############################################################
-
-### 2.5) RStudio - praca z programem
-
-# Tworzymy projekt (File -> New Project...), np. "IRD". W katalogu projektowym tworzomy katalogi rscripts oraz data.
-# pobieramy z Internetu wskazane skrypty i pliki z danymi i umieszczamy w odpowiednich katalogach.
-
-### 3) Wprowadzenie do R
+### 4) Wprowadzenie do R
 
 ## pomoc
-
 help(plot)
 ?plot # nazwa identyczna jak podana
 ??regression # szukamy po słowie
 
 ## katalog roboczy
-
 getwd() # w jakim katalogu pracujemy?
 
 #setwd('..') # zmiana katalogu roboczego
-
 # session -> set working directory..
 
 dir() # zawartość katalogu roboczego
@@ -99,19 +86,17 @@ require(plyr)
 # a library generuje błąd
 detach("package:dplyr") # wyłączanie pakietu
 
-### 4) Operacje matematyczne, podstawowe funkcje matematyczne/statystyczne
+### 5) Operacje matematyczne, podstawowe funkcje matematyczne/statystyczne
 
 ## operacje przypisania, operacje matematyczne
-
 a <- 5
 a
 
-a*3
-a-1
+a * 3
+a - 1
 
 # Różne rodzaje dzielenia:
-
-a/2
+a / 2
 
 10 %% 3   # reszta z dzielenia
 10 %/% 3  # część całkowita z dzielenia
@@ -126,11 +111,11 @@ a < b
 a != b
 
 2 == 3
-2+2 == 4
+2 + 2 == 4
 3 < 5
 3 <= 5
-3 <=5 | 10 > 100 # lub
-3 <=5 & 10 > 100 # oraz
+3 <= 5 | 10 > 100 # lub
+3 <= 5 & 10 > 100 # oraz
 
 # Rodzaje cudzysłowów zwykle nie mają znaczenia
 var_t <- "SGH"
@@ -139,12 +124,12 @@ var_t2 <- 'SGH'
 var_t == var_t2
 
 ## wbudowane funkcje (wybrane)
-
 sqrt(16) 
 abs(-99)
 sum(5, 6)
 cos(pi)
 sin(pi)
+factorial(4) # silnia
 log(4)
 log(10)
 log10(10)
@@ -153,6 +138,7 @@ logb(base = 5, x = 56)
 logb(5, 56)
 exp(0)
 round(pi, 2)
+round(6.592, digits = 2)
 
 ceiling(3.3)
 floor(3.6)
@@ -161,11 +147,7 @@ trunc(-1.5)
 floor(-1.5)
 ceiling(-1.5)
 
-round(6.592, digits = 2)
-factorial(4) # silnia
-
 ## przypisywanie
-
 x <- 5 # najpopularniejszy, deklarowanie 
 
 ##############################################################################################
@@ -192,12 +174,11 @@ x # "<-": do x przypisano wartość 0
 ##############################################################################################
 
 ## workspace
-
 ls() # sprawdzenie, co znajduje się w Workspace
 rm("x") # usuwanie elementu z Workspace
 rm(list=ls()) # usuwa wszystkie obiekty z workspace
 
-### 5) Typy zmiennych
+### 6) Typy zmiennych
 
 calkowita <- 4L
 calkowita
@@ -226,29 +207,20 @@ Inf + 2
 -Inf
 -24 / 0
 
-NA # Not Available
-NA + 3 # operacje na NA dają w wyniku NA
-
 is.na(NA) # używane głównie do usuwania brakujących wartości
 is.na(3)
 NaN # Not a Number
-0/0
+0 / 0
 Inf - Inf
 
 NULL # brak danych - w sensie technicznym
 v <- c(1, NA, NULL)
 v
-
-Inf + 2
-1/Inf
-23 / 0
--23 / 0
-
-missing <- NA
-NA + 2
+NA # brak danych - w sensie analitycznym
+NA + 3 # operacje na NA dają w wyniku NA
 NA == 5
-
-0/0
+is.na(NA) # używane głównie do usuwania brakujących wartości
+is.na(3)
 
 # Klasa to co innego niż typ. Typ który określa wewnętrzny sposób 
 # przechowywania obiektu. Klasa to atrybut obiektu w sensie programowania
@@ -256,32 +228,27 @@ NA == 5
 typeof(1)
 class(1)
 
-### 6) Obiekty w R
+### 7) Obiekty w R
 
 ## skalary:
-
 n <- 100
 n
 
 ## wektory: wszystkie elementy muszą być tego samego typu:
-
 v1 <- 1:10
 v1
-v2 <- c(1,4,6,3,11,3)
+v2 <- c(1, 4, 6, 3, 11, 3)
 v2
 typeof(v2)
 sort(v2)
 length(v2)
 unique(v2)
+sum(v1)
 
 v3 <- c("ala", "ma", "kota") # wektor tekstowy
 typeof(v3)
 v4 <- c()
 v5 <- 11:20
-
-length(v1)
-mean(v2)
-sum(v1)
 v1 + v5
 
 # Rzutowanie typów
@@ -293,9 +260,9 @@ c(10, 20, TRUE, 'ala ma kota')
 v3
 v3[3] # 3ci element
 v1[2:4] # element od 2giego do 4tego
-v1[c(2,3,10)] # element 2, 3 i 10ty
-v1[v1<4 | v1>6]
-v1[v1>4 & v1<8]
+v1[c(2, 3, 10)] # element 2, 3 i 10ty
+v1[v1 < 4 | v1 > 6]
+v1[v1 > 4 & v1 < 8]
 
 # a co, gdy wychodzimy poza rzeczywistą długość wektora?
 v3
@@ -320,44 +287,33 @@ vec_txt_u[c(1, 3, 4)]
 nchar('SGH')
 nchar(vec_txt_u) # ta funkcja też jest naturalnie zwektoryzowana
 
-w <- c(4,36,6,2,6,5,6,2,4.6)
+w <- c(4, 36, 6, 2, 6, 5, 6, 2, 4.6)
 w
 k <- sqrt(w) # ta funkcja też jest naturalnie zwektoryzowana
 k
 
-sort(w)
-length(w)
-unique(w)
-length(unique(w))
-sort(unique(w))
+# Działania na wektorach, zawijanie wektorów
+w1 <- c(1, 2, 3, 4)
+w2 <- c(3, 12, 5.2, 7.8)
+w3 <- c(10, 100)
+w4 <- c(1000, 2000, 3000)
 
-w1 <- c(5,5.5,2)
-w2 <- c(3,12,5.2)
-
-w1 + w2
-
-w1 <- c(1,2,3,4)
-w2 <- c(10,100)
-w3 <- c(1000, 2000, 3000)
-
-
-w1 + w2
-
-w1 <- c(3,4,5,6,7)
 2 * w1
+w1 / 2
+w1^2
 
 # Zawijanie wektorów
+w1 + w2
 w1 + w3
+w1 + w4
 
 #Kilka dodatkowych operacji
 x <- 1:100
-x
 3 %in% x # czy 3 jest w zbiorze x?
 
 c(3, 100, 2000) %in% x # które elementy tego wektora są w zbiorze x?
 
 # ciagi
-
 licznik <- 1:10
 licznik
 
@@ -365,32 +321,26 @@ licznik2 <- 10:0
 licznik2
 
 seq(-1, 1, 0.1)
-
 seq(from=-1,to=1,length=21)
-
 seq(1, 1,length = 21)
-
 seq(length=21, from=-1, by=0.1)
 
 rep(1, 5)
-
 rep('TORA', 3)
 
 rep(1:2, times = 3)
-rep(1:2,each = 3)
+rep(1:2, each = 3)
 # ^ w praktyce lepiej pisać wprost, co chcemy osiągnąć, zamiast opierać kod na
 # znajomości takich pamięciowych sztuczek.
 
 
 ## macierze
-
 m1 <- matrix (1:100, 10, 10, byrow = T)
 m1
 m2 <- matrix (1:100, 10, 10)
 m2
 
-seq(from=-1,to=1,length=20)
-m3 <- matrix(seq(from=-1,to=1,length=20), 4 ,5)
+m3 <- matrix(seq(from = -1, to = 1, length = 20), 4, 5)
 m3
 
 rep(1, 5)
@@ -418,13 +368,12 @@ all(m1 == m2)
 
 # indeksowanie macierzy:
 m1[2,3]
-m1[1,]
-m1[,3]
-m1[m1>mean(m1)]
+m1[1, ]
+m1[, 3]
+m1[m1 > mean(m1)]
 
 ## lista-  "wektory", ale mogą przechowywać elementy dowolnych typów,
 # także bardzo rozbudowanych (np. inne listy), elementy mogą być różnej długości
-
 lista <- list(a = 1, b = "a", c = 1:4, d = list(), 6)
 lista
 names(lista) # nazwy elementów listy
@@ -454,7 +403,6 @@ all(c(TRUE, FALSE) & c(TRUE, FALSE))
 all(c(TRUE, FALSE) | c(TRUE, TRUE))
 
 ## typ czynnikowy
-
 kolor.oczu <- c('n', 'n', 'z', 'b', 'b', 'b', 'n', 'z', 'b', 'z')
 kolor.oczu
 kolor.oczu <- factor(kolor.oczu)
@@ -467,8 +415,6 @@ kolor.oczu
 plec <- c('f','m','f','f','m','m','f',
           'm','f','f')
 plec
-
-mode(plec)
 
 plec <- as.factor(plec)
 plec
@@ -485,27 +431,28 @@ table(plec2)[2]
 
 length(plec)
 
-wiek<-c('>18','<18','<18','<18','<18','>18','>18','>18','>18','>18')
+wiek<-c('>18', '<18', '<18', '<18', '<18', '>18', '>18', '>18', '>18', '>18')
 wiek
-wiek <- factor(c('>18','<18','<18','<18','<18','>18','>18','>18','>18','>18'))
+wiek <- factor(c('>18', '<18', '<18', '<18', '<18', '>18', '>18', '>18', '>18', '>18'))
 wiek
-length(wiek)
 
-t <- table(plec,wiek)
+t <- table(plec, wiek)
 t
 
 # Warianty tabel częstości
 prop.table(t)
 
-margin.table(t,1)
+margin.table(t, 1)
 
-margin.table(t,2)
-prop.table(t,1)
-prop.table(t,2)
+margin.table(t, 2)
+prop.table(t, 1)
+prop.table(t, 2)
 
 ## ramka danych (data frame) - wektory różnych typów o RÓWNEJ liczbie elementów:
-
-df1 <- data.frame(v1= c(10,20,30), v2= c("ala", "ma", "kota"), v3= c(NA, 13, NaN), v4 = c(TRUE, FALSE, TRUE))
+df1 <- data.frame(v1 = c(10, 20, 30), 
+                  v2 = c("ala", "ma", "kota"), 
+                  v3 = c(NA, 13, NaN), 
+                  v4 = c(TRUE, FALSE, TRUE))
 df1
 names(df1) <- c('wiek', 'haslo', 'wiek_brata', 'ma_siostre')
 df1
