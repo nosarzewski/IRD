@@ -319,9 +319,9 @@ licznik2 <- 10:0
 licznik2
 
 seq(-1, 1, 0.1)
-seq(from=-1,to=1,length=21)
+seq(from = -1, to = 1, length = 21)
 seq(1, 1,length = 21)
-seq(length=21, from=-1, by=0.1)
+seq(length = 21, from = -1, by = 0.1)
 
 rep(1, 5)
 rep('TORA', 3)
@@ -410,15 +410,15 @@ levels(kolor.oczu) <- c("brazowe", "niebieskie", "zielone")
 levels(kolor.oczu)
 kolor.oczu
 
-plec <- c('f','m','f','f','m','m','f',
-          'm','f','f')
+plec <- c('f', 'm', 'f', 'f', 'm', 'm', 'f',
+          'm', 'f', 'f')
 plec
 
 plec <- as.factor(plec)
 plec
 
-plec2 <- factor(c('f','f','f','f','f'),
-                levels=c('f','m'))
+plec2 <- factor(c('f', 'f', 'f', 'f', 'f'),
+                levels=c('f', 'm'))
 plec2
 
 
