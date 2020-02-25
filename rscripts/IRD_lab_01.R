@@ -207,8 +207,6 @@ Inf + 2
 -Inf
 -24 / 0
 
-is.na(NA) # używane głównie do usuwania brakujących wartości
-is.na(3)
 NaN # Not a Number
 0 / 0
 Inf - Inf
