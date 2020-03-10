@@ -12,9 +12,9 @@ prowadzący:
 ### Kolokwium
 Kolokwium odbędzie się dla __wszystkich__ grup w dniu 9 czerwca 2020 w godzinach 17.10-18.40 oraz 19.00-20.30.
 
-## Wstępny plan zajęć
-__25.02/03.03.2020 - Wstęp do programowania w języku R__  
-10/17.03.2020 - Przetwarzanie danych w R (pakiet dplyr)  
+## Plan zajęć
+25.02/03.03.2020 - Wstęp do programowania w języku R  
+__10/17.03.2020 - Przetwarzanie danych w R (pakiet dplyr)__  
 24/31.03.2020 - Wizualizacja danych (pakiet ggplot2)  
 07/21.04.2020 - Drzewa decyzyjne  
 28.04/05.05.2020 - Ocena jakości modeli  
