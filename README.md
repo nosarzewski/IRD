@@ -9,6 +9,9 @@ prowadzący:
   grupy 102 i 103: Justyna Proniewicz  (justyna.proniewicz@gmail.com)
 
 ## Ogłoszenia
+### Zajęcia w trybie online
+Ze względu na sytuację epidemiologiczną w kraju ćwiczenia tymczasowo będą prowadzone w trybie online. Osoby z grup 102 i 103 zapraszam do grupowej konwersacji na Skype: https://join.skype.com/NB055mobwbju . Zajęcia dla obu grup zaczną się o 17.10. - Pozdrawiam, Justyna Proniewicz
+
 ### Kolokwium
 Kolokwium odbędzie się dla __wszystkich__ grup w dniu 9 czerwca 2020 w godzinach 17.10-18.40 oraz 19.00-20.30.
 
