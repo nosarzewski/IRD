@@ -11,6 +11,7 @@ prowadzący:
 ## Ogłoszenia
 ### Zajęcia w trybie online - grupy 102 oraz 103 UPDATE
 Ze względu na problem z przekroczeniem maksymalnej liczby członków grupy na Skype, zajęcia dla grup 102 i 103 będą od teraz prowadzone na MS Teams: https://teams.microsoft.com/l/team/19%3a7a3a9e7df1ff461d96df74fb7bf2ff9f%40thread.tacv2/conversations?groupId=fae9a7dd-7041-4441-9d27-6024104b05f1&tenantId=164e1b0e-c8e5-41a9-9bbb-6f7ed40eef04
+Zajęcia będą się odbywać zgodnie z harmonogramem - gr. 102 o godzinie 17.10, a gr. 103 o godzinie 19.00.
 Justyna Proniewicz
 
 ### Zajęcia w trybie online - grupy 100 oraz 101 UPDATE
