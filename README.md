@@ -18,6 +18,7 @@ Justyna Proniewicz
 Z powodu przekroczenia maksymalnego limitu uczestników zajęcia ze Skype zostały przeniesione na MS Teams:
 https://teams.microsoft.com/l/team/19%3a6902505a3a49426587e36a846ca3078f%40thread.tacv2/conversations?groupId=82b244cf-9c08-49cc-80d2-bf8ca9770294&tenantId=164e1b0e-c8e5-41a9-9bbb-6f7ed40eef04  
 Kolejne zajęcia także będą odbywać się poprzez MS Teams.  
+__Od zajęć 28.04.2020 zajęcia będą odbywały się zgodnie z harmonogramem - gr. 100 o godzinie 17.10, a gr. 101 o godzinie 19.00.__  
 Aleksander Nosarzewski
 
 ### Zajęcia w trybie online - grupy 100 oraz 101
