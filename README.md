@@ -37,8 +37,8 @@ Kolokwium odbędzie się dla __wszystkich__ grup w dniu 9 czerwca 2020 w godzina
 25.02/03.03.2020 - Wstęp do programowania w języku R  
 10/17.03.2020 - Przetwarzanie danych w R (pakiet dplyr)  
 24/31.03.2020 - Wizualizacja danych (pakiet ggplot2)  
-__07/21.04.2020 - Drzewa decyzyjne__  
-28.04/05.05.2020 - Ocena jakości modeli  
+07/21.04.2020 - Drzewa decyzyjne  
+__28.04/05.05.2020 - Ocena jakości modeli__  
 12/19.05.2020 - Lasy losowe i reguły asocjacyjne  
 26.05/02.06.2020 - Powtórzenie materiału przed kolokwium  
 09.06.2020 - Kolokwium (wszystkie grupy)
