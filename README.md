@@ -9,13 +9,18 @@ prowadzący:
   grupy 102 i 103: Justyna Proniewicz  (justyna.proniewicz@gmail.com)
 
 ## Ogłoszenia
+### Wyniki kolokwium - gr. 102 i 103
+Szanowni Państwo,  
+W zakładce exam znajdziecie Państwo wyniki kolokwium z ćwiczeń.   
+Justyna Proniewicz
+
 ### Sposób zaliczenia ćwiczeń
 Zaliczenie ćwiczeń będzie polegało na napisaniu standardowego kolokwium, które będą Państwo rozwiązywać zdalnie. Kolokwia będą udostępniane, a rozwiązania wysyłane poprzez MS Teams.  
 Aleksander Nosarzewski
 
 ### Zajęcia w trybie online - grupy 102 oraz 103 UPDATE
-Ze względu na problem z przekroczeniem maksymalnej liczby członków grupy na Skype, zajęcia dla grup 102 i 103 będą od 21.04.2020r. prowadzone na MS Teams: https://teams.microsoft.com/l/team/19%3a7a3a9e7df1ff461d96df74fb7bf2ff9f%40thread.tacv2/conversations?groupId=fae9a7dd-7041-4441-9d27-6024104b05f1&tenantId=164e1b0e-c8e5-41a9-9bbb-6f7ed40eef04
-Zajęcia będą się odbywać zgodnie z harmonogramem - gr. 102 o godzinie 17.10, a gr. 103 o godzinie 19.00.
+Ze względu na problem z przekroczeniem maksymalnej liczby członków grupy na Skype, zajęcia dla grup 102 i 103 będą od 21.04.2020r. prowadzone na MS Teams: https://teams.microsoft.com/l/team/19%3a7a3a9e7df1ff461d96df74fb7bf2ff9f%40thread.tacv2/conversations?groupId=fae9a7dd-7041-4441-9d27-6024104b05f1&tenantId=164e1b0e-c8e5-41a9-9bbb-6f7ed40eef04  
+Zajęcia będą się odbywać zgodnie z harmonogramem - gr. 102 o godzinie 17.10, a gr. 103 o godzinie 19.00.  
 Justyna Proniewicz
 
 ### Zajęcia w trybie online - grupy 100 oraz 101 UPDATE
@@ -43,6 +48,6 @@ Kolokwium odbędzie się dla __wszystkich__ grup w dniu 9 czerwca 2020 w godzina
 24/31.03.2020 - Wizualizacja danych (pakiet ggplot2)  
 07/21.04.2020 - Drzewa decyzyjne  
 28.04/05.05.2020 - Ocena jakości modeli  
-__12/19.05.2020 - Lasy losowe i reguły asocjacyjne__  
+12/19.05.2020 - Lasy losowe i reguły asocjacyjne  
 26.05/02.06.2020 - Powtórzenie materiału przed kolokwium  
-09.06.2020 - Kolokwium (wszystkie grupy)
+__09.06.2020 - Kolokwium (wszystkie grupy)__
