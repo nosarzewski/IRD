@@ -9,6 +9,11 @@ prowadzący:
   grupy 102 i 103: Justyna Proniewicz  (justyna.proniewicz@gmail.com)
 
 ## Ogłoszenia
+### Wyniki kolokwium - gr. 100 i 101
+Szanowni Państwo,  
+W zakładce exam znajdziecie Państwo wyniki kolokwium z ćwiczeń. Na Teamsie dostępna jest bardziej szczegółowa punktacja.  
+Aleksander Nosarzewski
+
 ### Wyniki kolokwium - gr. 102 i 103
 Szanowni Państwo,  
 W zakładce exam znajdziecie Państwo wyniki kolokwium z ćwiczeń.   
