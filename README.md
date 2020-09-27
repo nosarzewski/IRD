@@ -1,58 +1,28 @@
 # Indukowane Reguły Decyzyjne
-Indukowane Reguły Decyzyjne w Szkole Głównej Handlowej, semestr letni roku akademickiego 2019/2020, studia dzienne/popołudniowe w języku polskim.
+Indukowane Reguły Decyzyjne w Szkole Głównej Handlowej, semestr zimowy roku akademickiego 2020/2021, studia dzienne/popołudniowe w języku polskim.
 
 [Strona części wykładowej przedmiotu na Niezbędniku SGH](https://www.e-sgh.pl/mwrzosek/ird/)
 
-zajęcia: co drugi wtorek 17.10-18.40 oraz 19.00-20.30, sala G-235  
+zajęcia:  
+  grupa 1: co druga środa 17.10-18.50 (start 07.10.2020)  
+  grupa 2: co drugi wtorek 17.10-18.50 (start 06.10.2020)  
+  grupa 2: co drugi wtorek 17.10-18.50 (start 13.10.2020)  
+
 prowadzący:  
-  grupy 100 i 101: Aleksander Nosarzewski (nosarzewski.aleks@gmail.com)  
-  grupy 102 i 103: Justyna Proniewicz  (justyna.proniewicz@gmail.com)
+  grupa 1: Justyna Proniewicz  (justyna.proniewicz@gmail.com)  
+  grupy 2 i 3: Aleksander Nosarzewski (nosarzewski.aleks@gmail.com)  
 
 ## Ogłoszenia
-### Wyniki kolokwium - gr. 100 i 101
-Szanowni Państwo,  
-W zakładce exam znajdziecie Państwo wyniki kolokwium z ćwiczeń. Na Teamsie dostępna jest bardziej szczegółowa punktacja.  
-Aleksander Nosarzewski
-
-### Wyniki kolokwium - gr. 102 i 103
-Szanowni Państwo,  
-W zakładce exam znajdziecie Państwo wyniki kolokwium z ćwiczeń.   
-Justyna Proniewicz
-
-### Sposób zaliczenia ćwiczeń
-Zaliczenie ćwiczeń będzie polegało na napisaniu standardowego kolokwium, które będą Państwo rozwiązywać zdalnie. Kolokwia będą udostępniane, a rozwiązania wysyłane poprzez MS Teams.  
-Aleksander Nosarzewski
-
-### Zajęcia w trybie online - grupy 102 oraz 103 UPDATE
-Ze względu na problem z przekroczeniem maksymalnej liczby członków grupy na Skype, zajęcia dla grup 102 i 103 będą od 21.04.2020r. prowadzone na MS Teams: https://teams.microsoft.com/l/team/19%3a7a3a9e7df1ff461d96df74fb7bf2ff9f%40thread.tacv2/conversations?groupId=fae9a7dd-7041-4441-9d27-6024104b05f1&tenantId=164e1b0e-c8e5-41a9-9bbb-6f7ed40eef04  
-Zajęcia będą się odbywać zgodnie z harmonogramem - gr. 102 o godzinie 17.10, a gr. 103 o godzinie 19.00.  
-Justyna Proniewicz
-
-### Zajęcia w trybie online - grupy 100 oraz 101 UPDATE
-Z powodu przekroczenia maksymalnego limitu uczestników zajęcia ze Skype zostały przeniesione na MS Teams:
-https://teams.microsoft.com/l/team/19%3a6902505a3a49426587e36a846ca3078f%40thread.tacv2/conversations?groupId=82b244cf-9c08-49cc-80d2-bf8ca9770294&tenantId=164e1b0e-c8e5-41a9-9bbb-6f7ed40eef04  
-Kolejne zajęcia także będą odbywać się poprzez MS Teams.  
-__Od zajęć 28.04.2020 zajęcia będą odbywały się zgodnie z harmonogramem - gr. 100 o godzinie 17.10, a gr. 101 o godzinie 19.00.__  
-Aleksander Nosarzewski
-
-### Zajęcia w trybie online - grupy 100 oraz 101
-W związku z ogłoszonym stanem epidemii w Polsce zajęcia będą prowadzone w trybie online za pośrednictwem Skype: https://join.skype.com/kugYRF40SvjU. Zgodnie z ogłoszeniem dr Wrzosek zajęcia dla obu grup zaczną się o godzinie 17.10.  
-Aleksander Nosarzewski
-
-### Zajęcia w trybie online - grupy 102 oraz 103
-Ze względu na sytuację epidemiologiczną w kraju ćwiczenia tymczasowo będą prowadzone w trybie online. Osoby z grup 102 i 103 zapraszam do grupowej konwersacji na Skype: https://join.skype.com/NB055mobwbju . Zajęcia dla obu grup zaczną się o 17.10.  
-Pozdrawiam,  
-Justyna Proniewicz
-
-### Kolokwium
-Kolokwium odbędzie się dla __wszystkich__ grup w dniu 9 czerwca 2020 w godzinach 17.10-18.40 oraz 19.00-20.30.
+Tutaj będą się pojawiać ogłoszenia.
 
 ## Plan zajęć
-25.02/03.03.2020 - Wstęp do programowania w języku R  
-10/17.03.2020 - Przetwarzanie danych w R (pakiet dplyr)  
-24/31.03.2020 - Wizualizacja danych (pakiet ggplot2)  
-07/21.04.2020 - Drzewa decyzyjne  
-28.04/05.05.2020 - Ocena jakości modeli  
-12/19.05.2020 - Lasy losowe i reguły asocjacyjne  
-26.05/02.06.2020 - Powtórzenie materiału przed kolokwium  
-__09.06.2020 - Kolokwium (wszystkie grupy)__
+Terminy (grupa 1/2/3):  
+__07/06/13.10.2020 - Wstęp do programowania w języku R__  
+21/20/27.10.2020 - Przetwarzanie danych w R (pakiet dplyr)  
+04/03/10.11.2020 - Wizualizacja danych (pakiet ggplot2)  
+25/17/24.11.2020 - Drzewa decyzyjne  
+09/01/08.12.2020 - Ocena jakości modeli  
+23/15/22.12.2020 - Lasy losowe i reguły asocjacyjne  
+20/12/19.01.2021 - Powtórzenie materiału przed kolokwium  
+
+Kolokwium odbędzie się w trakcie pierwszego terminu sesji - termin zostanie podany w harmonogramie sesji (wszystkie grupy w tym samym terminie).
