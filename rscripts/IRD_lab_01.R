@@ -15,9 +15,10 @@
 ### 1) Organizacja zajęć
 
 # zaliczenie zajęć za minimum 50%, składowe:
-## ćwiczenia: kolokwium za 40%, 2 terminy (jeden na ostatnich zajęcia oraz jeden w sesji)
+## ćwiczenia: kolokwium za 50 pkt., 2 terminy sesji
 ## można mieć materiały (dowolne) i korzystać z Internetu, nie można się komunikować
-## wykład: test za 40 % oraz projekt za 20%
+## wykład: test za 50 pkt.
+## projekt: 20 pkt.
 # adres repozytorium z materiałami: https://github.com/nosarzewski/IRD
 
 ### 2) Ogólnie o R
@@ -176,7 +177,7 @@ x # "<-": do x przypisano wartość 0
 ## workspace
 ls() # sprawdzenie, co znajduje się w Workspace
 rm("x") # usuwanie elementu z Workspace
-rm(list=ls()) # usuwa wszystkie obiekty z workspace
+rm(list = ls()) # usuwa wszystkie obiekty z workspace
 
 ### 6) Typy zmiennych
 
@@ -365,7 +366,7 @@ any(m1 == m2)
 all(m1 == m2)
 
 # indeksowanie macierzy:
-m1[2,3]
+m1[2, 3]
 m1[1, ]
 m1[, 3]
 m1[m1 > mean(m1)]
