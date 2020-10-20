@@ -171,10 +171,10 @@ lapply(example_list, function(element){
 #tworza obiekty typu tibble czyli proste ramki danych
 
 #instalacja pakietu
-#install.packages("tidyverse", dependencies=TRUE)
+#install.packages("readr", dependencies=TRUE)
 
 #zaladowanie pakietu
-library("tidyverse")
+library("readr")
 
 # Budujemy pomocniczą funkcję do mierzenia czasu wykonywania różnych operacji
 measure_time <- function(f, ...)
@@ -189,7 +189,7 @@ measure_time <- function(f, ...)
 getwd()
 
 #ustalenie katalogu roboczego (tam, gdzie znajduja sie pliki z danymi do przykladow)
-path <- "https://raw.githubusercontent.com/nosarzewski/IRD_19_20_Z/master/data/"
+path <- "https://raw.githubusercontent.com/nosarzewski/IRD/master/data/"
 
 ##wczytywanie roznego rodzaju danych z pliku
 
