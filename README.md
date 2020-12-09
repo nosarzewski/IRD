@@ -18,10 +18,10 @@ Tutaj będą się pojawiać ogłoszenia.
 ## Plan zajęć
 Terminy (grupa 1/2/3):  
 07/06/13.10.2020 - Wstęp do programowania w języku R  
-__21/20/27.10.2020 - Przetwarzanie danych w R (pakiet dplyr)__  
+21/20/27.10.2020 - Przetwarzanie danych w R (pakiet dplyr)  
 04/03/10.11.2020 - Wizualizacja danych (pakiet ggplot2)  
 25/17/24.11.2020 - Drzewa decyzyjne  
-09/01/08.12.2020 - Ocena jakości modeli  
+__09/01/08.12.2020 - Ocena jakości modeli__  
 23/15/22.12.2020 - Lasy losowe i reguły asocjacyjne  
 20/12/19.01.2021 - Powtórzenie materiału przed kolokwium  
 
