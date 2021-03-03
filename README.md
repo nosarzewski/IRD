@@ -1,7 +1,7 @@
 # Indukowane Reguły Decyzyjne
-Indukowane Reguły Decyzyjne w Szkole Głównej Handlowej, semestr zimowy roku akademickiego 2020/2021, studia dzienne w języku polskim.
+Indukowane Reguły Decyzyjne w Szkole Głównej Handlowej, semestr letni roku akademickiego 2020/2021, studia w języku polskim.
 
-[Strona części wykładowej przedmiotu na Niezbędniku SGH](https://www.e-sgh.pl/mwrzosek/ird/)
+[Strona części wykładowej przedmiotu na Niezbędniku SGH](https://www.e-sgh.pl/niezbednik/student_przedmiot.php?pid=13810)
 
 zajęcia:  
 * grupa 1: co druga środa 17.10-18.50 (start 07.10.2020)  
