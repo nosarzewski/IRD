@@ -9,7 +9,7 @@
 ################################################################################
 
 # Źródła:
-# https://www.kaggle.com/c/titanic
+  # https://www.kaggle.com/c/titanic
 # http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/
 
 # Biblioteki
@@ -123,6 +123,8 @@ set.seed(1)
 
 data <- read.csv2('data/income.csv', na.strings = '')
 data <- na.omit(data)
+data <- data[!(data$workclass %in% c("Never-worked", "Without-pay")), ]
+data$income <- as.factor(data$income)
 
 ## podzial na zbior testowy i uczacy
 inTraining <- createDataPartition(data$income, p = .8, list = FALSE)
@@ -146,7 +148,8 @@ plot(treeCaret_simple)
 rpart.plot(treeCaret_simple$finalModel)
 
 # Ewaluacja
-confusionMatrix(data = predict(treeCaret_simple, testing), reference = testing$income, mode = "everything")
+confusionMatrix(data = predict(treeCaret_simple, testing), 
+                reference = testing$income, mode = "everything")
 
 # Teraz recznie zadajemy zbior wartosci parametru zlozonosci do przeszukania
 rpartGrid <- expand.grid(cp = seq(0.001, 0.1, by = 0.005))
@@ -207,7 +210,18 @@ DATA_SET$class <- factor(ifelse(DATA_SET$class == "unacc", 0, 1))
 
 # Uzywajac pakietu caret, zbuduj model drzewa klasyfikacyjnego 
 # do przewidywania jakosci czerwonego wina. 
+# (Zamien jakosc wyrazona liczbowo na 2 klasy - high & low)
 # Uzyj 3-krotnej walidacji krzyzowej. Pokaz jego metryki
 # dla zbioru uczacego i testowego.
 # Zbuduj kolejne drzewo, tym razem uzywajac 10-krotnej walidacji krzyzowej.
 # Porownaj jego metryki (dla zbioru uczacego i testowego) z metrykami poprzedniego drzewa.
+
+data_fpath <- 'data/winequality-red.csv' # Wpisac poprawna sciezke dostepu w zaleznosci od lokalizacji pliku
+wine_data <- read.csv2(data_fpath, header = TRUE)
+
+# Eksploracja danych
+str(wine_data)
+summary(wine_data)
+
+# Zgrupowanie miary jakosci wina w klasy
+# wine_data$quality <- # ...
