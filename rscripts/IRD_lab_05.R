@@ -109,7 +109,8 @@ prognoza_ciagla <- as.vector(prognoza_ciagla[,2])
 plot(performance(prediction(prognoza_ciagla,test$quality),"tpr","fpr"),lwd=2, colorize=T) 
 
 # AUC (Area Under Curve) - pole pod krzywa ROC
-performance(prediction(prognoza_ciagla, test$quality),"auc")
+perf_auc <- performance(prediction(prognoza_ciagla, test$quality),"auc")
+perf_auc@y.values[[1]]
 
 # Sensitivity/specificity plots ~ trade-off
 plot(performance(prediction(prognoza_ciagla,test$quality),"sens","spec"),lwd=2) 
