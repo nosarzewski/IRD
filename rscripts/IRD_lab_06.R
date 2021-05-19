@@ -99,7 +99,7 @@ EvaluateModel(dtree_classif_mx)
 # Ale jakie AUC dla drzewa?
 prognoza_ciagla <- predict(dtree, newdata = test)
 prognoza_ciagla <- as.vector(prognoza_ciagla[,2])
-performance(prediction(prognoza_ciagla, test[["income"]]),"auc")
+(perf_auc <- performance(prediction(prognoza_ciagla, test$income),"auc")@y.values[[1]])
 
 # A jakie bedzie dla lasu losowego?
 
