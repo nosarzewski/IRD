@@ -1,5 +1,5 @@
 # Indukowane Reguły Decyzyjne
-Indukowane Reguły Decyzyjne w Szkole Głównej Handlowej, semestr zimowy roku akademickiego 2022/2022, studia dzienne i popołudniowe w języku polskim.
+Indukowane Reguły Decyzyjne w Szkole Głównej Handlowej, semestr zimowy roku akademickiego 2021/2022, studia dzienne i popołudniowe w języku polskim.
 
 zajęcia:  
 * grupa 1: co drugi czwartek 19.00-20.40 (start 07.10.2021)   
